@@ -1,0 +1,25 @@
+
+.head {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   /* 40-20 */
+   margin-top: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+    /* 40-20 */
+   margin-bottom: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+   align-items: baseline;
+
+}
+ 
+.logo {
+    /* 150-300 */
+    max-width: clamp(9.375rem, 5.966rem + 17.05vw, 18.75rem);
+    max-width: clamp(14.375rem, 12.784rem + 7.95vw, 18.75rem);
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}

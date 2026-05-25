@@ -1,0 +1,151 @@
+
+/* ナビ */
+
+.paginavi {
+   display: flex;
+   justify-content: space-between;
+}
+
+.paginavi a {
+    font-weight: bold;
+}
+
+/* 以下はコピペなので。。 */
+
+.wrap {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.maindiv {
+   margin-top: 30px;
+   /* max-width: 700px; */
+}
+
+
+/* .ul {
+   list-style: none;
+   font-size: 1.125rem;
+}
+
+
+.li {
+   margin-bottom: 5px;
+} */
+
+
+
+/* 0325追加 */
+
+.disabled {
+  pointer-events: none; /* 念のためクリック無効 */
+  cursor: default;
+  color: grey;
+}
+
+/* 0326追加 */
+
+.figure img {
+   width: 100%;
+   height: auto;
+}
+
+
+/* ====================================
+    ▼ 内容フレックス
+===================================== */
+
+
+.contents_flex {
+    display: flex;
+    gap:30px;
+    width: 100%;
+}
+
+
+.figure {
+    width: 70%;
+}
+
+.contet_main {
+    width: 30%;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.contet_main img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ====================================
+    ▼ メディアクエリ
+===================================== */
+
+
+@media (max-width:767px) {
+    .contents_flex {
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+
+    }
+    .figure {
+        width: 100%;
+    }
+
+    .contet_main {
+        width: 100%;
+    }
+
+}
+
+
+/* ====================================
+    ▼ 見出し
+===================================== */
+
+.time_category_flex {
+    display: flex;
+    gap:20px;
+
+}
+
+
+/* ====================================
+    ▼ マップ・カテゴリーラディウス
+===================================== */
+ 
+/* .category_radius_map {
+    margin-top: 9px;
+}  */
+
+.category_radius_map a {
+    border: 1px solid lightgray;
+    padding: 1px 8px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+.category_radius_map a:hover {
+    background-color: white;
+}
+
+
+/* ====================================
+    ▼ 補足
+===================================== */
+
+
+.h2 {
+    font-size: 24px;
+}
+
+
+
+
+
+
+

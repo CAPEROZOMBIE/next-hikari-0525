@@ -1,0 +1,195 @@
+
+/* html {
+    
+    background: linear-gradient(145deg,yellow,white,white,white,pink);
+    background-size: 220% 220%;
+    animation: next-bg 15s ease infinite;
+
+@keyframes next-bg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+} */
+ 
+
+
+body {
+  /* max-width: 100vw; */
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  /*  */
+  
+  /* background: url(/a.png); */
+  /* background: url(/bg_content01.webp); */
+  /* background: url(/menu__overlay-edge.png); */
+  background: url(/bg.webp);
+  background-position: center bottom -15px;
+  background-size: 100% 10%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ====================================
+        ▼ マージントップ（環境設定）
+===================================== */
+
+
+.mt250 {
+    margin-top: 250px;
+}
+
+.mt200 {
+    margin-top: 200px;
+}
+
+.mt150 {
+    margin-top: 150px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mt75 {
+    margin-top: 75px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt3 {
+    margin-top: 3px;
+}
+
+
+/* ====================================
+        ▼ クランプマージン（環境設定）
+===================================== */
+
+.mt15-0 {
+    margin-top: clamp(0rem, -0.341rem + 1.7vw, 0.938rem);
+}
+
+.mt25-10 {
+    margin-top: clamp(0.625rem, 0.284rem + 1.7vw, 1.563rem);
+}
+
+.mt50-25 {
+    margin-top: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+}
+
+.mt50-35 {
+    margin-top: clamp(2.188rem, 1.847rem + 1.7vw, 3.125rem);
+}
+
+.mt60-40 {
+    margin-top: clamp(2.5rem, 2.045rem + 2.27vw, 3.75rem);
+}
+
+.mt75-25 {
+    margin-top: clamp(1.563rem, 0.426rem + 5.68vw, 4.688rem);
+}
+
+.mt75-45 {
+    margin-top: clamp(2.813rem, 2.131rem + 3.41vw, 4.688rem);
+}
+
+.mt100-25 {
+    margin-top: clamp(1.563rem, -0.142rem + 8.52vw, 6.25rem);
+}
+
+.mt100-50 {
+    margin-top: clamp(3.125rem, 1.989rem + 5.68vw, 6.25rem);
+}
+
+.mt125-50 {
+    margin-top: clamp(3.125rem, 1.42rem + 8.52vw, 7.813rem);
+}
+
+.mt150-75 {
+    margin-top: clamp(4.688rem, 2.983rem + 8.52vw, 9.375rem);
+}
+
+.mt150-85 {
+    margin-top: clamp(5.313rem, 3.835rem + 7.39vw, 9.375rem);
+}
+
+.mt200-100 {
+    margin-top: clamp(6.25rem, 3.977rem + 11.36vw, 12.5rem);
+}
+
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 22px;
+       margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+/* h3 {
+   margin-top: 30px;
+   margin-bottom: 10px;
+   color: red;
+} */
+
+
+
+/* 横スクロール防止 */
+body {
+  overflow-x: hidden;
+}
+
+/* オーバーレイのスクロール防止 */
+body.no-scroll {
+  overflow: hidden;
+}
+
+time {
+    font-weight: bold;
+}
+
+.noimage img {
+    border: 1px solid lightgray;
+}
+
+

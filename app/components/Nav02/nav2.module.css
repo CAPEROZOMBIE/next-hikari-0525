@@ -1,0 +1,107 @@
+/* app\components\Nav02\nav2.module.css */
+
+
+/********** PC状態 ***********/
+
+.ul {
+   display: flex;
+   gap: 30px;
+   list-style: none;
+}
+
+.hamburger {
+   display: none;
+   cursor: pointer;
+}
+
+.close {
+   display: none;
+}
+
+.small {
+    display: none;
+}
+
+/*********** スマホ状態 ***********/
+
+@media(max-width:768px) {
+
+   .nav {
+      display: none;
+   }
+
+   .ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap:10px;
+   }
+   
+   .ul a {
+    color: white;
+    } 
+
+   .hamburger {
+      display: block;
+      width: 30px;
+      height: auto;
+      padding-top: 2px;
+   }
+
+   .hamburger img {
+      width: 100%;
+      height: auto;
+      vertical-align: bottom;
+      
+   }
+
+   .nav.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 200;
+      text-align: center;
+   }
+
+   .close {
+      display: block;
+      position: absolute;
+      top: 35px;
+      right: 35px;
+      width: 35px;
+      cursor: pointer;
+   }
+   
+     .close img {
+        width: 100%;
+        height: auto;
+     }
+     
+     /* クレジット */
+     
+     .small {
+        margin-top: 25px;
+        display: block;
+        color: white;
+        font-size: 14px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

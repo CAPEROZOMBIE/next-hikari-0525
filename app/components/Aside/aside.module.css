@@ -1,0 +1,49 @@
+/* app\components\Aside\aside.module.css */
+
+
+/* ====================================
+    ▼ フッター・カテゴリーラディウスリストフレックス
+===================================== */
+ 
+.category_radius {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+ 
+.category_radius a {
+    border: 1px solid lightgray;
+    padding: 1px 15px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+.category_radius a:hover {
+    background-color: white;
+}
+
+
+
+/* ====================================
+    ▼ マップ・カテゴリーラディウス
+===================================== */
+ 
+.category_radius_map {
+    margin-top: 9px;
+} 
+
+.category_radius_map a {
+    border: 1px solid lightgray;
+    padding: 1px 8px;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    text-decoration: none;
+}
+
+.category_radius_map a:hover {
+    background-color: white;
+}
+

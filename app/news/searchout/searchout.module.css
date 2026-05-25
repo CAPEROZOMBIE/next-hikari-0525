@@ -1,0 +1,28 @@
+/* app\news\[news_id]\news_id.module.css */
+
+.wrap {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.maindiv {
+   margin-top: 30px;
+}
+
+.h2 {
+   margin-bottom: 20px;
+}
+
+.ul {
+   list-style: none;
+   font-size: 1.125rem;
+}
+
+
+.li {
+   margin-bottom: 5px;
+}
+
+.back {
+   text-align: center;
+}

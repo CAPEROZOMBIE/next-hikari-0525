@@ -1,0 +1,67 @@
+/* app\components\Footer\footer.module.css */
+
+.foot {
+   display: flex;
+   justify-content: flex-start;
+   gap: 30px;
+   /* 60-30 */
+   margin-top: clamp(1.875rem, 1.193rem + 3.41vw, 3.75rem);
+   align-items:flex-end;
+   
+   /* 10-30 */
+   margin-bottom: clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
+}
+
+.foot img {
+    /* 200-150 */
+    width: clamp(9.375rem, 8.239rem + 5.68vw, 12.5rem);
+    height: auto;
+    vertical-align:-4px;
+}
+
+.footflex {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    align-items:baseline;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+/* .small {
+
+
+} */
+
+
+/* =========================================
+            ▼ メディアクエリ
+========================================== */
+
+@media (max-width:767px){
+    
+    .footflex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .foot{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    } 
+    
+    .small{
+        margin-bottom: 30px;
+    }
+
+}
