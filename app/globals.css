@@ -161,7 +161,8 @@ li {
 }
 
 h2 {
-    font-size: 22px;
+    /* 18-22 */
+    font-size: clamp(1.125rem, 1.034rem + 0.45vw, 1.375rem);
        margin-top: 30px;
    margin-bottom: 10px;
 }

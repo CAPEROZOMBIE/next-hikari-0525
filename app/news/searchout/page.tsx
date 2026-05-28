@@ -36,16 +36,16 @@ async function Page({ searchParams }: alltype) {
                      <div className={style.gaitou}>該当はありません</div>
                   ) : (
 
-                     <ul className={style.ul}>
+                     <div>
                         {Akiyama_news.contents
                         .sort((a, b) => (b.publishedAt || "").localeCompare(a.publishedAt || "")) //追加
                         .map((item) => (
-                           <li key={item.id} className={style.li}>
-                              {item.publishedAt && taniguchi_Date(item.publishedAt) } ｜
-                              <Link href={`/news/detail/${item.id}`}>{item.title}</Link>
-                           </li>
+                           <div key={item.id} className={style.flex}>
+                                <time className={style.time}>{item.publishedAt && taniguchi_Date(item.publishedAt) }</time>
+                                <div className={style.title}><Link href={`/news/detail/${item.id}`}>{item.title}</Link></div>
+                           </div>
                         ))}
-                     </ul>
+                     </div>
                   )}
                </div>
             </div>

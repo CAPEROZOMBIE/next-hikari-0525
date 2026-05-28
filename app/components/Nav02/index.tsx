@@ -29,7 +29,7 @@ function Nav02() {
             {/* <nav className={`${style.nav} ${OpenNav && style.open}`}> */}
                 <ul className={`${style.ul} ${OpenNav && style.open}`}>
                     <li><Link href="/">トップページ</Link></li>
-                    <li><Link href="/about">アバウトページ</Link></li>
+                    <li><Link href="/about">アバウト</Link></li>
                     <li><Link href="/news/1">ニュース</Link></li>
                 </ul>
                 <p className={style.small}>

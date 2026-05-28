@@ -5,6 +5,7 @@ import Header from "./../../../components/Header";
 import Footer from "./../../../components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import Aside from "./../../../components/Aside";
 
 import { taniguchi_Date } from "./../../../library/taniguchi";
 
@@ -103,6 +104,8 @@ async function Page({ params }: alltype) {
                   )}
                </span>
             </div>
+            
+            <Aside />
 
          </main>
 

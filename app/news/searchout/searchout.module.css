@@ -13,16 +13,22 @@
    margin-bottom: 20px;
 }
 
-.ul {
-   list-style: none;
-   font-size: 1.125rem;
-}
-
-
-.li {
-   margin-bottom: 5px;
-}
-
 .back {
    text-align: center;
+}
+
+/* 検索結果表示 */
+
+.flex {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.time {
+    width: 10em;
+}
+
+.title {
+    width: auto;
+    
 }

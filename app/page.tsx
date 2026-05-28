@@ -13,7 +13,7 @@ export default async function Home() {
 
    const Yamata_top_News = await getAkiyamaNews({
    fields: ["title", "id","publishedAt","category"],
-   limit: 3
+   limit: 5
     })
 
    return (
@@ -21,7 +21,6 @@ export default async function Home() {
          <Header />
          <main className={style.main}>
                <figure className={style.figureWrap}>
-                  {/* <img src="/2.jpg" alt="" /> */}
                   <Image 
                         src={"/top-main2.jpg"}
                         width={1000}

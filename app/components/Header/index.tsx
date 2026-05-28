@@ -13,7 +13,7 @@ export default function Header() {
             <figure className={style.logo}>
                 <Link href="/">
                     <Image
-                        src="/logo.svg"
+                        src="/logo2.svg"
                         alt="ロゴ"
                         width={16}
                         height={9}

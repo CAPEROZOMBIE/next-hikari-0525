@@ -28,7 +28,8 @@ function SearchFormComponent() {
    return (
       <>
          <form onSubmit={handleSubmit} className={styles.form}>
-            <label className={styles.search} >
+            {/* <label className={styles.search} > */}
+            <label>
                <input
                   type="text"
                   name="q"

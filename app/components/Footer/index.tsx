@@ -14,7 +14,7 @@ export default function Header() {
                 <div className={style.foot}>
                     <Link href="/">
                         <Image
-                            src="/logo.svg"
+                            src="/logo2.svg"
                             alt="LOGO"
                             width={200}
                             height={50}

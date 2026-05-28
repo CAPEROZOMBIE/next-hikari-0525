@@ -12,9 +12,11 @@
 }
  
 .logo {
-    /* 150-300 */
-    max-width: clamp(9.375rem, 5.966rem + 17.05vw, 18.75rem);
-    max-width: clamp(14.375rem, 12.784rem + 7.95vw, 18.75rem);
+
+    /* 85-140 */
+    max-width: clamp(5.313rem, 4.063rem + 6.25vw, 8.75rem);
+    /* max-width: 100px; */
+  
 
 }
 
