@@ -156,6 +156,16 @@ body {
 }
 
 
+a {
+    text-decoration: none;  
+    color: black;  
+}
+
+a:hover {
+
+    color: gray;  
+}
+
 li {
     list-style: none;
 }
@@ -163,16 +173,9 @@ li {
 h2 {
     /* 18-22 */
     font-size: clamp(1.125rem, 1.034rem + 0.45vw, 1.375rem);
-       margin-top: 30px;
-   margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-
-/* h3 {
-   margin-top: 30px;
-   margin-bottom: 10px;
-   color: red;
-} */
-
 
 
 /* 横スクロール防止 */

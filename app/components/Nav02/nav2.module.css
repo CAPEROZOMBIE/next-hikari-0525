@@ -3,10 +3,21 @@
 
 /********** PC状態 ***********/
 
+/* .nav {
+    background-color: aqua;
+} */
+
 .ul {
    display: flex;
    gap: 30px;
    list-style: none;
+   font-size: 18px;
+
+}
+
+.ul a {
+    font-weight: 700;
+    /* color: black; */
 }
 
 .hamburger {
@@ -87,7 +98,7 @@
      /* クレジット */
      
      .small {
-        margin-top: 25px;
+        margin-top: 45px;
         display: block;
         color: white;
         font-size: 14px;

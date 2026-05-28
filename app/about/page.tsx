@@ -20,7 +20,7 @@ export default async function About() {
          <main className={style.main}>
                <figure className={style.figureWrap}>
                   <Image 
-                        src={"/top-main3.jpg"}
+                        src={"/top-main2.webp"}
                         width={1000}
                         height={500}
                         alt=""

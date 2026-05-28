@@ -90,17 +90,17 @@ async function Page({ params }: alltype) {
             <div className={style.paginavi}>
                <span>
                   {next ? (
-                     <a href={`/news/detail/${next.id}`}>前の記事</a>
+                     <a href={`/news/detail/${next.id}`}>＜ 前の記事</a>
                   ) : (
-                     <span className={style.disabled}>前の記事</span>
+                     <span className={style.disabled}>＜ 前の記事</span>
                   )}
                </span>
             
                <span>
                   {prev ? (
-                     <a href={`/news/detail/${prev.id}`}>次の記事</a>
+                     <a href={`/news/detail/${prev.id}`}>次の記事 ＞</a>
                   ) : (
-                     <span className={style.disabled}>次の記事</span>
+                     <span className={style.disabled}>次の記事 ＞</span>
                   )}
                </span>
             </div>

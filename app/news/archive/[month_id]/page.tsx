@@ -154,16 +154,16 @@ async function Page({ params }: alltype) {
                 
                 <nav className={style.archive_nav}>
                     {prevMonth?(
-                        <a href={`/news/archive/${prevMonth}`}>前の月へ</a>
+                        <a href={`/news/archive/${prevMonth}`}>＜ 前の月</a>
                     ):(
-                        <span className={style.archive_nav_none}>前の月へ</span>
+                        <span className={style.archive_nav_none}>＜ 前の月</span>
                     )
                 }
                 {""}
                 {nextMonth?(
-                    <a href={`/news/archive/${nextMonth}`}>次の月へ</a>
+                    <a href={`/news/archive/${nextMonth}`}>次の月 ＞</a>
                 ):(
-                    <span className={style.archive_nav_none}>次の月へ</span>
+                    <span className={style.archive_nav_none}>次の月 ＞</span>
                 )}
                 </nav>
                 

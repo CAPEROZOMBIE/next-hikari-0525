@@ -17,7 +17,7 @@
     width: clamp(9.375rem, 8.239rem + 5.68vw, 12.5rem);
     width: clamp(3.125rem, 2.67rem + 2.27vw, 4.375rem);
     height: auto;
-    vertical-align:-4px;
+    vertical-align:-2px;
 }
 
 .footflex {
@@ -33,12 +33,10 @@
     gap: 20px;
 }
 
-
-/* .small {
-
-
-} */
-
+.ul a {
+font-weight: 700;
+/* color: black; */
+}
 
 /* =========================================
             ▼ メディアクエリ

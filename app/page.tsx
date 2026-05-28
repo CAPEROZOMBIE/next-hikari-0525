@@ -22,7 +22,7 @@ export default async function Home() {
          <main className={style.main}>
                <figure className={style.figureWrap}>
                   <Image 
-                        src={"/top-main2.jpg"}
+                        src={"/top-main.jpg"}
                         width={1000}
                         height={500}
                         alt=""
