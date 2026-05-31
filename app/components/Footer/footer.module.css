@@ -4,12 +4,19 @@
    display: flex;
    justify-content: flex-start;
    gap: 30px;
-   /* 60-30 */
-   margin-top: clamp(1.875rem, 1.193rem + 3.41vw, 3.75rem);
+   
+      /* 15-30 */
+   margin-top:clamp(0.938rem, 0.597rem + 1.7vw, 1.875rem);
+   
+   
+       /* 10-30 */
+   margin-top:clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
+   
+   
    align-items:flex-end;
    
-   /* 10-30 */
-   margin-bottom: clamp(0.625rem, 0.17rem + 2.27vw, 1.875rem);
+   /* 25-50 */
+   margin-bottom:clamp(1.563rem, 1.222rem + 1.7vw, 2.5rem);
 }
 
 .foot img {
@@ -57,6 +64,7 @@ font-weight: 700;
         flex-direction: column-reverse;
         align-items: center;
         gap: 10px;
+        margin-bottom: 15px;
     } 
     
     .small{

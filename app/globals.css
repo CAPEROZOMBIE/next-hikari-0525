@@ -29,9 +29,16 @@ body {
   /* background: url(/a.png); */
   /* background: url(/bg_content01.webp); */
   /* background: url(/menu__overlay-edge.png); */
-  background: url(/bg.webp);
-  background-position: center bottom -15px;
-  background-size: 100% 10%;
+  /* background: url(/bg.webp); */
+  
+  background: url(/bg-side2.webp);
+  /* background-position: center bottom -15px;
+  background-size: 100% 10%; */
+  background-position: right -550px top;
+  
+  /* 500-250 */
+  background-position: left clamp(9.375rem, 1.42rem + 39.77vw, 31.25rem) top;
+  background-size: 100% 100%;
   /* background-size: cover; */
   background-repeat: no-repeat;
 

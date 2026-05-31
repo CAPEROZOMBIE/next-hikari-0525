@@ -14,6 +14,22 @@ import { getAkiyamaNewsDetail } from "./../../../library/microcms";
 // 試し
 import { getAkiyamaNews } from "./../../../library/microcms";
 
+
+// ↓ タイトル カテゴリーからコピーして改定 ０５２９
+
+import { Metadata } from "next";
+export async function generateMetadata({ params }: alltype): Promise<Metadata> {
+    const { detail_id } = await params; 
+    const yamata = await getAkiyamaNewsDetail(detail_id,{
+        fields:["title"]
+    });
+    return {
+        title: `${yamata.title}`
+    };
+}
+
+
+
 export const revalidate = 60;
 
 type alltype = { params: Promise<{ detail_id: string }> };

@@ -47,6 +47,9 @@
     padding-bottom: 13px;
     margin-top: 15px;
     gap: 10px;
+    
+    /* 追加 */
+    margin-bottom: 20px;
 }
 
 .article_time {
