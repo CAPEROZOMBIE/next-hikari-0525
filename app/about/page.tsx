@@ -28,7 +28,7 @@ export default async function About() {
                         priority
                    />
                </figure>
-               <p className={style.ptext}>このサイトは、Next.js 16.1.6 + microcmsで制作したサンプルサイトです。</p>
+               <p className={style.ptext}>このサイトは、Next.js 16.1.6 + microcms + Cloudflareで制作したサンプルサイトです。</p>
 
          </main>
          <Footer />
